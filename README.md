@@ -1,17 +1,19 @@
 # Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O objetivo do projeto é fornecer uma plataforma online que auxilie na gestão de investimentos, permitindo aos usuários acompanhar e analisar suas carteiras de investimentos de forma eficiente. O site oferece ferramentas para monitorar o desempenho dos investimentos, realizar análises de risco e retorno, além de fornecer informações relevantes sobre o mercado financeiro para apoiar a tomada de decisões de investimento informadas. Com uma interface intuitiva e recursos robustos, o site busca capacitar os investidores a otimizarem suas estratégias e alcançarem seus objetivos financeiros.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Gabriel Marcondes Starling Rocha
+* João Eduardo SoaresJoão Eduardo Soares
+* João Pedro Peres BarbosaJoão Pedro Peres Barbosa
+* Lucas José Lopes FerreiraLucas José Lopes Ferreira
+* Mateus Rodrigues CostaMateus Rodrigues Costa 
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Danilo Boechat Seufitelli 
+* Diego Augusto de Faria Barros
+* Simone Alves Nogueira 
 
 ## Instruções de utilização
 
