@@ -4,10 +4,10 @@ O objetivo do projeto é fornecer uma plataforma online que auxilie na gestão d
 ## Alunos integrantes da equipe
 
 * Gabriel Marcondes Starling Rocha
-* João Eduardo SoaresJoão Eduardo Soares
-* João Pedro Peres BarbosaJoão Pedro Peres Barbosa
-* Lucas José Lopes FerreiraLucas José Lopes Ferreira
-* Mateus Rodrigues CostaMateus Rodrigues Costa 
+* João Eduardo Soares
+* João Pedro Peres Barbosa
+* Lucas José Lopes Ferreira
+* Mateus Rodrigues Costa
 
 ## Professores responsáveis
 
