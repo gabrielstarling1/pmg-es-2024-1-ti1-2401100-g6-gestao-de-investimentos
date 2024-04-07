@@ -1,21 +1,19 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+......  InvestPro ......
 
 `CURSO` 
 
 ......  COLOQUE AQUI O SEU TEXTO ......
 
 ## Participantes
-
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
+Os membros do grupo são: 
+* Gabriel Marcondes Starling Rocha
+* João Eduardo Soares
+* João Pedro Peres Barbosa
+* Lucas José Lopes Ferreira
+* Mateus Rodrigues Costa 
 
 # Estrutura do Documento
 
@@ -186,8 +184,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Criar conta                             | ALTA | 
+|RF-002| entrar                                  | ALTO |
+|RF-003| Cadastrar coretoras e banco             | ALTA | 
+|RF-004| simulaçao de investimento               | MÉDIA |
+|RF-005| feed de noticias                        | BAIXO | 
+|RF-006| geamficação                             | BAIXO |
+|RF-007| analize de perfil                       | ALTA | 
+|RF-008| plataforma de cursos                    | MÉDIA |
+|RF-009| Análise de risco e lucratividade        | ALTA | 
+|RF-010| gestão de investimentos                 | MÉDIA |
 
 
 ### Requisitos não Funcionais
