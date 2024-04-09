@@ -165,7 +165,9 @@ Nesta parte do documento, serão detalhadas as especificações do projeto Inves
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Persona01](images/Persona01.png)
+> 
+> ![Persona02](images/Persona02.jpg)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
