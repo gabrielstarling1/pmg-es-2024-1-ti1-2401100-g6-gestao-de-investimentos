@@ -169,8 +169,7 @@ Nesta parte do documento, serão detalhadas as especificações do projeto Inves
 > 
 > ![Persona02](images/Persona02.jpg)
 >
-> ![Persona03](images/Persona03.jpg)
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+> ![Persona03](images/Persona03.png)
 
 
 ## Histórias de Usuários
