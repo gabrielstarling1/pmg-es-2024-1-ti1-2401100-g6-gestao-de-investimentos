@@ -205,7 +205,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s | BAIXA |
+|RNF-003| A plataforma deve cumprir padrões de segurança, como PCI-DSS, para proteger as informações de pagamento dos usuários. | ALTA |
+|RNF-004| Estar disponível 24 horas por dia, 7 dias por semana, com tempo de inatividade mínimo planejado. | ALTA | 
+|RNF-005| Interface intuitiva e acessível para investidores de todos os níveis, garantindo uma experiência positiva de usuário. | MÉDIA |
+|RNF-006| Permitir aos usuários personalizar suas experiências de investimento de acordo com suas preferências e objetivos. | MÉDIA |
+|RNF-007| O suporte ao cliente deve responder rapidamente às consultas dos usuários, com tempos de espera mínimos. | MÉDIA | 
+|RNF-008| A plataforma deve ser capaz de lidar com um grande volume de transações simultâneas sem impacto significativo no desempenho. | ALTA |
+|RNF-009| A plataforma deve ser acessível para usuários com deficiências, seguindo padrões de acessibilidade reconhecidos. | MÉDIA |
+|RNF-010| A plataforma deve minimizar o número de cliques necessários para realizar tarefas comuns, otimizando a eficiência do usuário. | BAIXA |
+
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
