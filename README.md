@@ -1,4 +1,4 @@
-# Nome do projeto
+# InvestPro
 O objetivo do projeto é fornecer uma plataforma online que auxilie na gestão de investimentos, permitindo aos usuários acompanhar e analisar suas carteiras de investimentos de forma eficiente. O site oferece ferramentas para monitorar o desempenho dos investimentos, realizar análises de risco e retorno, além de fornecer informações relevantes sobre o mercado financeiro para apoiar a tomada de decisões de investimento informadas. Com uma interface intuitiva e recursos robustos, o site busca capacitar os investidores a otimizarem suas estratégias e alcançarem seus objetivos financeiros.
 
 ## Alunos integrantes da equipe
