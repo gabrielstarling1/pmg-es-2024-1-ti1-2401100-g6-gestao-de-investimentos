@@ -1,11 +1,11 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  InvestPro ......
+InvestPro
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Engenharia de Software
 
 ## Participantes
 Os membros do grupo são: 
@@ -54,79 +54,93 @@ Os membros do grupo são:
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Investir no mercado financeiro pode ser complicado e desafiador. Muitas pessoas têm dificuldade em entender como investir, o porquê investir e como gerenciar efetivamente seus investimentos. Além disso, o controle de investimentos pode ser confuso e demorado, especialmente ao lidar com múltiplas contas e instituições financeiras.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+InvestPro enfrenta o desafio de simplificar esse processo para investidores de todos os níveis de experiência. A plataforma visa fornecer educação financeira, orientação especializada e ferramentas poderosas para facilitar o gerenciamento e controle de investimentos, permitindo aos usuários tomar decisões mais inteligentes e maximizar seus retornos financeiros.
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Desenvolver um software eficiente e intuitivo para simplificar o processo de investimento, fornecendo educação financeira, orientação especializada e ferramentas de gerenciamento de investimentos, a fim de ajudar investidores de todos os níveis de experiência a tomar decisões informadas e maximizar seus retornos financeiros.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+1. **Desenvolvimento de uma Plataforma Educacional:**
+   Criar uma seção educacional dentro da plataforma InvestPro, oferecendo recursos como artigos, vídeos e tutoriais interativos para fornecer aos usuários conhecimentos básicos sobre investimentos, estratégias de investimento e gestão de carteiras. O objetivo é capacitar os investidores a entenderem melhor o mercado financeiro e tomarem decisões mais conscientes.
+
+2. **Implementação de Ferramentas de Controle e Comparação de Investimentos:**
+   Desenvolver ferramentas que permitam aos usuários acompanhar facilmente o desempenho de seus investimentos, realizar comparações entre diferentes ativos e instituições financeiras, e facilitar a portabilidade de dados entre contas. Isso incluirá a integração de APIs de instituições financeiras para fornecer acesso direto aos dados dos investidores e a criação de algoritmos de análise para gerar insights relevantes sobre o desempenho dos investimentos. O objetivo é simplificar o controle e a gestão das carteiras de investimento, permitindo aos usuários otimizar seus portfólios e maximizar seus resultados financeiros.
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Investir dinheiro é uma atividade crucial para muitas pessoas e empresas, e pode ter um impacto significativo em seu bem-estar financeiro futuro. No entanto, o processo de investimento pode ser complexo e intimidador para aqueles que não têm experiência ou conhecimento adequado. Aqui estão algumas razões pelas quais escolhemos trabalhar com a aplicação InvestPro e definir os objetivos específicos:
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+1. **Democratização do Conhecimento Financeiro:**
+   Muitas pessoas evitam investir simplesmente porque não entendem como funciona o mercado financeiro. Ao desenvolver uma plataforma educacional dentro do InvestPro, podemos ajudar a democratizar o conhecimento financeiro, tornando as informações sobre investimentos acessíveis e compreensíveis para um público mais amplo. Isso pode motivar mais pessoas a começarem a investir e a tomar melhores decisões financeiras para o seu futuro.
+
+2. **Facilitar o Controle e Gerenciamento de Investimentos:**
+   Gerenciar investimentos pode ser uma tarefa desafiadora, especialmente para aqueles com múltiplas contas e investimentos em diferentes instituições financeiras. Implementar ferramentas de controle e comparação de investimentos no InvestPro pode simplificar esse processo, fornecendo aos investidores uma visão clara e abrangente de seus portfólios e permitindo que façam ajustes estratégicos com base em dados precisos e atualizados. Isso pode ajudar os investidores a maximizar seus retornos e minimizar seus riscos ao longo do tempo.
+
+3. **Promover a Confiança e Segurança dos Investidores:**
+   Muitas vezes, a falta de transparência e controle pode levar os investidores a se sentirem inseguros em relação aos seus investimentos. Ao oferecer ferramentas que simplificam o processo de controle e comparação de investimentos, podemos promover a confiança e segurança dos investidores, permitindo-lhes tomar decisões mais informadas e sentir-se mais no controle de seu futuro financeiro.
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+## Perfil dos Usuários da Aplicação InvestPro
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+### Investidores Iniciantes:
+- **Conhecimentos Prévios:** Pouca ou nenhuma experiência em investimentos.
+- **Relação com a Tecnologia:** Uso básico de dispositivos eletrônicos e aplicativos, mas com pouca familiaridade com plataformas de investimento.
+- **Objetivo:** Aprender sobre investimentos, entender os conceitos básicos e começar a construir uma carteira de investimentos.
+
+### Investidores Intermediários:
+- **Conhecimentos Prévios:** Alguma experiência em investimentos, familiarizados com conceitos básicos.
+- **Relação com a Tecnologia:** Uso regular de dispositivos eletrônicos e aplicativos, confortáveis em explorar novas plataformas.
+- **Objetivo:** Aprofundar o conhecimento em investimentos, diversificar a carteira e otimizar o retorno sobre o investimento.
+
+### Investidores Avançados:
+- **Conhecimentos Prévios:** Experiência sólida em investimentos, entendimento avançado de conceitos financeiros.
+- **Relação com a Tecnologia:** Proficiente no uso de tecnologia, familiarizados com ferramentas de análise financeira e investimento.
+- **Objetivo:** Aperfeiçoar estratégias de investimento, maximizar retornos e gerenciar portfólios complexos com eficiência.
+
+### Consultores Financeiros:
+- **Conhecimentos Prévios:** Experiência profissional em consultoria financeira, certificações em finanças ou investimentos.
+- **Relação com a Tecnologia:** Habilidades avançadas em tecnologia, utilização de softwares especializados em análise financeira.
+- **Objetivo:** Prestar assistência aos clientes na tomada de decisões de investimento, utilizar a plataforma para análise de dados e geração de relatórios personalizados.
+
+### Administradores de Instituições Financeiras:
+- **Conhecimentos Prévios:** Experiência em gestão financeira e compliance.
+- **Relação com a Tecnologia:** Proficiente em ferramentas de software financeiro e sistemas de informação.
+- **Objetivo:** Utilizar a plataforma para análise de dados e monitoramento do desempenho dos investimentos sob sua responsabilidade, tomar decisões estratégicas com base nos insights fornecidos pelo InvestPro.
+
+### Empreendedores e Gestores de Pequenas Empresas:
+- **Conhecimentos Prévios:** Variedade de conhecimentos, desde básicos até avançados, dependendo da formação acadêmica e experiência profissional.
+- **Relação com a Tecnologia:** Uso regular de tecnologia para fins comerciais e financeiros.
+- **Objetivo:** Utilizar a plataforma para gerenciar os investimentos pessoais e/ou corporativos, otimizando os recursos financeiros da empresa e maximizando o retorno sobre o capital investido.
+
+### Público Geral:
+- **Conhecimentos Prévios:** Diversificados, desde leigos até experientes em investimentos.
+- **Relação com a Tecnologia:** Varia de acordo com a faixa etária e experiência individual.
+- **Objetivo:** Aprender sobre investimentos, acessar informações financeiras relevantes e tomar decisões informadas sobre suas finanças pessoais.
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nesta parte do documento, serão detalhadas as especificações do projeto InvestPro, delineando os requisitos funcionais e não funcionais da aplicação. As seguintes técnicas e ferramentas serão utilizadas para realizar as especificações do projeto:
 
-> Apresente uma visão geral do que será abordado nesta parte do
-> documento, enumerando as técnicas e/ou ferramentas utilizadas para
-> realizar a especificações do projeto
+1. **Levantamento de Requisitos:**
+   - Utilização de questionários, entrevistas e análise de documentos para identificar as necessidades dos usuários e as funcionalidades desejadas da aplicação.
+
+2. **Prototipagem:**
+   - Desenvolvimento de protótipos de baixa e alta fidelidade para visualizar a interface da aplicação e validar o fluxo de navegação e as funcionalidades propostas.
+
+3. **Diagramas de Caso de Uso:**
+   - Criação de diagramas de caso de uso para representar as interações entre os diferentes atores e os casos de uso da aplicação.
+
+4. **Mapas Mentais e Diagramas de Fluxo de Dados:**
+   - Elaboração de mapas mentais e diagramas de fluxo de dados para visualizar a estrutura da aplicação e o fluxo de informações entre os diferentes componentes do sistema.
+
+5. **Análise de Riscos:**
+   - Identificação e avaliação dos riscos potenciais associados ao desenvolvimento e implementação da aplicação, bem como a definição de estratégias para mitigá-los.
+
+6. **Feedback dos Stakeholders:**
+   - Coleta de feedback dos stakeholders, incluindo investidores, consultores financeiros, administradores de instituições financeiras e outros usuários relevantes, para garantir que as especificações do projeto atendam às suas expectativas e requisitos.
 
 ## Personas e Mapas de Empatia
 
