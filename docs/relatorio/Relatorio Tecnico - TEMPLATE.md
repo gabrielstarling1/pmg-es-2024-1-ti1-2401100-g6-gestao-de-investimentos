@@ -165,11 +165,11 @@ Nesta parte do documento, serão detalhadas as especificações do projeto Inves
 > 
 > **Exemplo de Persona**
 > 
-> ![Persona01](images/Persona01.png)
+> ![Persona01](images/persona001.jpg)
 > 
-> ![Persona02](images/Persona02.jpg)
+> ![Persona02](images/persona002.jpg)
 >
-> ![Persona03](images/Persona03.png)
+> ![Persona03](images/persona003.jpg)
 
 
 ## Histórias de Usuários
