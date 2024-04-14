@@ -160,11 +160,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 |----------------------|------------------------------------|-------------------------|
 | Usuário do sistema   | Registrar minha conta              | Não perder minha organização financeira |
-| Usuário do sistema   | Registrar meus investimentos       | Controle e acompanhamento de ganhos e perdas |
-| Usuário do sistema   | Cadastrar conta bancária para atualização automática de dados | Não esquecer de fazê-las |
-| Usuário do sistema   | Simular ganhos do investimento     | Permitir uma decisão baseada em dados sobre o investimento |
-| Usuário do sistema   | Analisar o meu perfil de investidor | Para fazer os cursos e investir de uma forma que me agrade |
-| Usuário do sistema   | Visualizar os cursos e meu progresso | Permitir que possam administrar o meu progresso nos cursos |
+| Persona 01           | Registrar meus investimentos       | Controle e acompanhamento de ganhos e perdas |
+| Persona 02  | Cadastrar conta bancária para atualização automática de dados | Não esquecer de fazê-las |
+| persona 01  | Simular ganhos do investimento     | Permitir uma decisão baseada em dados sobre o investimento |
+| personas 01 e 02   | Analisar o meu perfil de investidor | Para fazer os cursos e investir de uma forma que me agrade |
+| personas 01, 02 e 03  | Visualizar os cursos e meu progresso | Permitir que possam administrar o meu progresso nos cursos |
 
 ## Requisitos
 
@@ -202,15 +202,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|03| Não trazer custos extras                              |
 
 # Projeto de Interface
 
