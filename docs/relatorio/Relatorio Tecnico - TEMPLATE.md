@@ -205,15 +205,15 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID    | Requisito                               | Descrição do Requisito                                                                               | Prioridade |
 |------|-----------------------------------------| ---------------------------------------------------------------------------------------------------- | ---------- |
 |RF-001| Criar conta                             | Formulário para registro de conta com nome, foto de perfil, email, senha e botão de envio.           | ALTA       |
-|RF-002| entrar                                  | Formulário de login com campos para email e senha.                                                   | ALTO       |
+|RF-002| Entrar                                  | Formulário de login com campos para email e senha.                                                   | ALTO       |
 |RF-003| Cadastrar coretoras e banco             | Interface de administração para adicionar informações de parceiros.                                  | ALTA       |
-|RF-004| simulaçao de investimento               | Ferramenta para simular o crescimento do investimento com base em parâmetros definidos pelo usuário. | MÉDIA      |
-|RF-005| feed de noticias                        | Widget interativo exibindo notícias relevantes sobre investimentos.                                  | BAIXO      |
-|RF-006| geamficação                             | Utilização de APIs para automatizar o envio de emails para os usuários.                              | BAIXO      |
-|RF-007| analize de perfil                       | Página para inserir informações de perfil para recomendações personalizadas.                         | ALTA       |
-|RF-008| plataforma de cursos                    | Seção com cursos e materiais educacionais sobre investimentos.                                       | MÉDIA      |
+|RF-004| Simulaçao de investimento               | Ferramenta para simular o crescimento do investimento com base em parâmetros definidos pelo usuário. | MÉDIA      |
+|RF-005| Feed de noticias                        | Widget interativo exibindo notícias relevantes sobre investimentos.                                  | BAIXO      |
+|RF-006| Automatização de e-mail                 | Utilização de APIs para automatizar o envio de emails para os usuários.                              | BAIXO      |
+|RF-007| Analize de perfil                       | Página para inserir informações de perfil para recomendações personalizadas.                         | ALTA       |
+|RF-008| Plataforma de cursos                    | Seção com cursos e materiais educacionais sobre investimentos.                                       | MÉDIA      |
 |RF-009| Análise de risco e lucratividade        | Ferramenta para avaliar o risco e a lucratividade de investimentos.                                  | ALTA       |
-|RF-010| gestão de investimentos                 | Seção para acompanhar e gerenciar investimentos do usuário.                                          | MÉDIA      |
+|RF-010| Gestão de investimentos                 | Seção para acompanhar e gerenciar investimentos do usuário.                                          | MÉDIA      |
 
 ### Requisitos não Funcionais
 
