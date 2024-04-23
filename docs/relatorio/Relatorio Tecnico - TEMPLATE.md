@@ -144,31 +144,12 @@ Nesta parte do documento, serão detalhadas as especificações do projeto Inves
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
+O processo de criação de personas é essencial para garantir que o software atenda às necessidades e expectativas dos usuários. Utilizamos a abordagem de Design Thinking para criar personas significativas e úteis.
+> ## Pessoas individadas que querem aprender sobra controle financeiro e gostariam de após sair das dívidas iniciar nesse mundo 
 > ![Persona01](images/persona001.jpg)
-> 
+> ## Pessoas que já tem um conhecimento previo do mercado e uma vida financeira melhor estabelecida mas tem inseguranças em investir 
 > ![Persona02](images/persona002.jpg)
->
+> ## Jovens que desejam adquirir conhecimento na area de iniciar sua vida financeiro. E estão iniciando no mercado de investimentos com
 > ![Persona03](images/persona003.jpg)
 
 
@@ -179,22 +160,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
 |----------------------|------------------------------------|-------------------------|
 | Usuário do sistema   | Registrar minha conta              | Não perder minha organização financeira |
-| Usuário do sistema   | Registrar meus investimentos       | Controle e acompanhamento de ganhos e perdas |
-| Usuário do sistema   | Cadastrar conta bancária para atualização automática de dados | Não esquecer de fazê-las |
-| Usuário do sistema   | Simular ganhos do investimento     | Permitir uma decisão baseada em dados sobre o investimento |
-| Usuário do sistema   | Analisar o meu perfil de investidor | Para fazer os cursos e investir de uma forma que me agrade |
-| Usuário do sistema   | Visualizar os cursos e meu progresso | Permitir que possam administrar o meu progresso nos cursos |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| Persona 01           | Registrar meus investimentos       | Controle e acompanhamento de ganhos e perdas |
+| Persona 02  | Cadastrar conta bancária para atualização automática de dados | Não esquecer de fazê-las |
+| persona 01  | Simular ganhos do investimento     | Permitir uma decisão baseada em dados sobre o investimento |
+| personas 01 e 02   | Analisar o meu perfil de investidor | Para fazer os cursos e investir de uma forma que me agrade |
+| personas 01, 02 e 03  | Visualizar os cursos e meu progresso | Permitir que possam administrar o meu progresso nos cursos |
 
 ## Requisitos
 
@@ -219,30 +189,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-> 
-> **Links Úteis**:
-> 
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|RNF-001| atualização automática de dados  | MÉDIA | 
+|RNF-002| Uma plataforma com tempos de processamento abaixo dos 5s |  BAIXA | 
+|RNF-003| Respeitar as cores de base do projeto |  BAIXA | 
+|RNF-002| Uma plataforma com tempos de processamento abaixo dos 5s |  BAIXA | 
 
 ## Restrições
 
@@ -252,24 +202,13 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
+|03| Não trazer custos extras                              |
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+Nesta seção, exploraremos duas etapas cruciais do Projeto de Interface: o User Flow e os Wireframes. O User Flow mapeia o caminho que os usuários seguirão dentro da aplicação, desde o primeiro contato até a conclusão de suas tarefas. Por outro lado, os Wireframes são esboços visuais das interfaces, fornecendo uma representação estruturada e simplificada dos elementos da interface e do layout.
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+Ao compreendermos essas duas áreas-chave do Projeto de Interface, estaremos capacitados a criar interfaces que não apenas atendam às necessidades dos usuários, mas também proporcionem uma experiência fluida e agradável ao interagir com a aplicação. Vamos mergulhar mais fundo no User Flow e nos Wireframes para entender como eles se complementam e contribuem para o sucesso do projeto.
 
 ## User Flow
 >![UserFlow](images/UserFlow.jpg)
@@ -277,88 +216,101 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+Cada wireframe foi meticulosamente elaborado para representar visualmente a disposição dos elementos, a hierarquia da informação e a interação do usuário em cada página. Ao explorar os wireframes, você terá uma compreensão clara de como a InvestPro funcionará e como os usuários interagirão com ela.
 
-> Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
-> estrutura de um site web e seu relacionamentos entre suas
-> páginas. Um wireframe web é uma ilustração semelhante ao
-> layout de elementos fundamentais na interface.
-> 
-> **Links Úteis**:
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> 
-> **Exemplo**:
-> 
-> ![Exemplo de Wireframe](images/wireframe-example.png)
+Este wireframe serve como um guia essencial durante o processo de desenvolvimento, ajudando a equipe de design e desenvolvimento a visualizar e refinar a experiência do usuário antes da implementação final. Além disso, ele é uma ferramenta valiosa para solicitar feedback e realizar iterações para garantir que a InvestPro atenda às necessidades e expectativas de nossos usuários.
+
+**Wireframe da InvestPro: Overview**
+
+> ![Wireframe Overview](images/wireframe-overview.png)
+
+**Wireframe da InvestPro: Criar Conta**
+
+> ![Wireframe Criar Conta](images/wireframe-criar-conta.png)
+
+**Wireframe da InvestPro: Entrar**
+
+> ![Wireframe Entrar](images/wireframe-entrar.png)
+
+**Wireframe da InvestPro: Institucional**
+
+> ![Wireframe Institucional](images/wireframe-institucional.png)
+
+**Wireframe da InvestPro: Homepage**
+
+> ![Wireframe Homepage](images/wireframe-homepage.png)
+
+**Wireframe da InvestPro: Profile**
+
+> ![Wireframe Profile](images/wireframe-perfil.png)
 
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para o desenvolvimento do projeto, adotamos uma abordagem baseada em metodologias ágeis, com ênfase no Framework Scrum e no processo de Design Thinking. A seguir, descrevemos detalhes sobre como essas metodologias foram implementadas, a divisão de papéis e tarefas, as ferramentas empregadas e a gestão de configuração do projeto via GitHub.
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+**Processo de Trabalho:**
+
+1. **Design Thinking:** No início do projeto, utilizamos o processo de Design Thinking para compreender as necessidades dos usuários, definir os requisitos do produto e criar soluções inovadoras. Realizamos sessões de brainstorming, entrevistas com stakeholders e prototipagem rápida para validar e iterar nas ideias.
+
+2. **Framework Scrum:** Adotamos o Framework Scrum para gerenciar o desenvolvimento iterativo e incremental do projeto. Realizamos o planejamento, desenvolvimento, revisão e retrospectiva das atividades.
+
+**Divisão de Papéis e Tarefas:**
+
+- **Product Owner:** Responsável por representar os interesses dos stakeholders, definir e priorizar o backlog do produto.
+  
+- **Scrum Master:** Facilitador do processo Scrum, responsável por garantir que a equipe siga os princípios e práticas ágeis.
+
+- **Equipe de Desenvolvimento:** Composta por desenvolvedores, designers e outros membros necessários para implementar as funcionalidades do produto.
+
+**Ferramentas Empregadas:**
+
+- **Discord:** Utilizamos o Discord como plataforma de comunicação para reuniões, discussões e acompanhamento do progresso do projeto.
+
+- **Gestão Ágil:** Utilizamos técnicas ágeis, como reuniões diárias de stand-up, para manter a equipe alinhada e identificar possíveis impedimentos.
+
+**Gestão de Configuração via GitHub:**
+
+- Utilizamos o GitHub para hospedar o repositório do projeto, gerenciar o versionamento do código-fonte e colaborar de forma eficiente. 
+
+Em resumo, adotamos uma abordagem ágil, centrada no usuário e baseada no Framework Scrum e no processo de Design Thinking. Utilizamos o Discord para comunicação, ferramentas ágeis para gestão do trabalho e o GitHub para gestão de configuração do projeto. Essas práticas e ferramentas nos permitiram desenvolver o projeto de forma colaborativa, iterativa e eficiente.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Nossa equipe é composta por membros dedicados, cada um desempenhando um papel fundamental no desenvolvimento do projeto. Confira abaixo a divisão de papéis e tarefas entre os membros do grupo:
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
+- **Product Owner (PO):** Mateus Rodrigues
+  - GitHub: [Mateus Rodrigues GitHub](https://github.com/MateusRodrigu)
+
+- **Scrum Master:** João Eduardo
+  - GitHub: [João Eduardo GitHub](https://github.com/Crow3442)
+
+- **Desenvolvedores:**
+  1. Gabriel Marcondes
+     - GitHub: [Gabriel Marcondes GitHub](https://github.com/gabrielstarling1)
+  2. João Pedro
+     - GitHub: [João Pedro GitHub](https://github.com/seuusuario)
+  3. Lucas
+     - GitHub: [Lucas GitHub](https://github.com/Lucas-Ferreira11)
 
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+| Ambiente                    | Plataforma | Link de Acesso                 |
+|-----------------------------|------------|--------------------------------|
+| Processo de Design Thinking | Miro       | [Link do Miro](https://miro.com/) |
+| Repositório de código       | GitHub     | [Link do GitHub](https://github.com/) |
+| Hospedagem do site          | Netlify    | [Link do Netlify](https://www.netlify.com/) |
+| Protótipo Interativo        | Figma      | [Link do Figma](https://www.figma.com/) |
 
-| Ambiente  | Plataforma              |Link de Acesso |
-|-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
-|Repositório de código | GitHub | https://github.com/XXXXXXX | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
+- **Editor de código:** Utilizamos o Visual Studio Code como nosso editor de código principal. Escolhemos o VS Code devido à sua interface amigável, extensibilidade através de plugins e recursos avançados, como depuração integrada, controle de versão e suporte a várias linguagens de programação.
+
+- **Ferramentas de comunicação:** Optamos pelo Discord como nossa principal ferramenta de comunicação. O Discord oferece salas de bate-papo por texto e voz, facilitando a comunicação em tempo real entre os membros da equipe, além de possibilitar a organização em canais específicos para diferentes tópicos e projetos.
+
+- **Ferramentas de diagramação:** Para criar diagramas e protótipos, escolhemos o Figma. O Figma é uma ferramenta de design colaborativo baseada na web, que permite a criação de wireframes, layouts de interface do usuário e protótipos interativos. Optamos pelo Figma devido à sua facilidade de uso, recursos avançados de colaboração em tempo real e capacidade de criar designs responsivos.
+
+- **Plataforma de hospedagem:** Escolhemos o Netlify como nossa plataforma de hospedagem para o projeto. O Netlify oferece hospedagem gratuita para projetos estáticos, integração contínua (CI) e entrega contínua (CD), HTTPS automático, escalabilidade automática e outras funcionalidades avançadas. Optamos pelo Netlify devido à sua simplicidade de configuração, performance e segurança garantida pela infraestrutura de hospedagem da plataforma.
 
 ## Controle de Versão
 
