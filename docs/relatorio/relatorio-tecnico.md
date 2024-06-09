@@ -117,7 +117,7 @@ Investir dinheiro é uma atividade crucial para muitas pessoas e empresas, e pod
 
 ### Público Geral:
 - **Conhecimentos Prévios:** Diversificados, desde leigos até experientes em investimentos.
-- **Relação com a Tecnologia:** Varia de acordo com a faixa etária e experiência individual.
+- **Relação com a Tecnologia:** Varia conforme a faixa etária e experiência individual.
 - **Objetivo:** Aprender sobre investimentos, acessar informações financeiras relevantes e tomar decisões informadas sobre suas finanças pessoais.
  
 # Especificações do Projeto
@@ -145,64 +145,63 @@ Nesta parte do documento, serão detalhadas as especificações do projeto Inves
 ## Personas e Mapas de Empatia
 
 O processo de criação de personas é essencial para garantir que o software atenda às necessidades e expectativas dos usuários. Utilizamos a abordagem de Design Thinking para criar personas significativas e úteis.
-> ## Pessoas individadas que querem aprender sobra controle financeiro e gostariam de após sair das dívidas iniciar nesse mundo 
-> ![Persona01](images/persona001.jpg)
-> ## Pessoas que já tem um conhecimento previo do mercado e uma vida financeira melhor estabelecida mas tem inseguranças em investir 
-> ![Persona02](images/persona002.jpg)
-> ## Jovens que desejam adquirir conhecimento na area de iniciar sua vida financeiro. E estão iniciando no mercado de investimentos com
-> ![Persona03](images/persona003.jpg)
+### Pessoas endividadas que querem aprender sobra controle financeiro e gostariam de, após sair das dívidas, começar a investir 
+![Larry Miller - Persona 1](images/personas/larry-miller.jpg)
+### Pessoas que já tem um conhecimento prévio do mercado e uma vida financeira melhor estabelecida, mas com inseguranças sobre investimentos 
+![Jade Selkie - Persona02](images/personas/jade-selkie.jpg)
+### Jovens que desejam adquirir conhecimento na area de iniciar sua vida financeiro. E estão iniciando no mercado de investimentos com
+![Soul Goodman - Persona03](images/personas/soul-goodman.jpg)
 
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE` | PARA ... `MOTIVO/VALOR` |
-|----------------------|------------------------------------|-------------------------|
-| Usuário do sistema   | Registrar minha conta              | Não perder minha organização financeira |
-| Persona 01           | Registrar meus investimentos       | Controle e acompanhamento de ganhos e perdas |
-| Persona 02  | Cadastrar conta bancária para atualização automática de dados | Não esquecer de fazê-las |
-| persona 01  | Simular ganhos do investimento     | Permitir uma decisão baseada em dados sobre o investimento |
-| personas 01 e 02   | Analisar o meu perfil de investidor | Para fazer os cursos e investir de uma forma que me agrade |
-| personas 01, 02 e 03  | Visualizar os cursos e meu progresso | Permitir que possam administrar o meu progresso nos cursos |
+| EU COMO... | QUERO/PRECISO ...                                                      | PARA ...                                               |
+|------------|------------------------------------------------------------------------|--------------------------------------------------------|
+| Investidor | Registrar minha conta                                                  | Não perder minha organização financeira                |
+| Investidor | Registrar meus investimentos                                           | Controlar e acompanhar meus ganhos e minhas perdas     |
+| Jade       | Cadastrar minhas contas bancárias para atualização automática de dados | Manter meus investimentos centralizados                |
+| Larry      | Simular possíveis investimentos                                        | Permitir uma decisão baseada em previsões de retorno   |
+| Soul       | Analisar o meu perfil de investidor                                    | Saber como eu me comporto em cada situação             |
+| Larry      | Visualizar os cursos disponíveis e meu progresso em cada um deles      | Manter meu conhecimento sobre investimentos atualizado |
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+As tabelas seguintes apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Requisito                               | Descrição do Requisito                                                                               | Prioridade |
-|------|-----------------------------------------| ---------------------------------------------------------------------------------------------------- | ---------- |
-|RF-001| Criar conta                             | Formulário para registro de conta com nome, foto de perfil, email, senha e botão de envio.           | ALTA       |
-|RF-002| Entrar                                  | Formulário de login com campos para email e senha.                                                   | ALTO       |
-|RF-003| Cadastrar coretoras e banco             | Interface de administração para adicionar informações de parceiros.                                  | ALTA       |
-|RF-004| Simulaçao de investimento               | Ferramenta para simular o crescimento do investimento com base em parâmetros definidos pelo usuário. | MÉDIA      |
-|RF-005| Feed de noticias                        | Widget interativo exibindo notícias relevantes sobre investimentos.                                  | BAIXO      |
-|RF-006| Automatização de e-mail                 | Utilização de APIs para automatizar o envio de emails para os usuários.                              | BAIXO      |
-|RF-007| Analize de perfil                       | Página para inserir informações de perfil para recomendações personalizadas.                         | ALTA       |
-|RF-008| Plataforma de cursos                    | Seção com cursos e materiais educacionais sobre investimentos.                                       | MÉDIA      |
-|RF-009| Análise de risco e lucratividade        | Ferramenta para avaliar o risco e a lucratividade de investimentos.                                  | ALTA       |
-|RF-010| Gestão de investimentos                 | Seção para acompanhar e gerenciar investimentos do usuário.                                          | MÉDIA      |
+| ID     | Requisito                    | Descrição do Requisito                                                                                  | Prioridade |
+|--------|------------------------------|---------------------------------------------------------------------------------------------------------|------------|
+| RF-001 | Cadastrar investimentos      | Tela para cadastrar e centralizar informações sobre os investimentos do investidor.                     | ALTA       |
+| RF-002 | Acompanhamento do Mercado    | Tela contendo preços sobre o mercado de ações nacional                                                  | MÉDIO      |
+| RF-003 | Cadastrar corretoras e banco | Interface de administração para adicionar informações de parceiros.                                     | ALTA       |
+| RF-004 | Simulação de investimentos   | Ferramenta para simular o crescimento do investimento com base em parâmetros definidos pelo investidor. | MÉDIA      |
+| RF-005 | Feed de noticias             | Widget interativo exibindo notícias relevantes sobre investimentos.                                     | BAIXO      |
+| RF-006 | Página de Perfil             | Seção com informações básicas do investido.                                                             | BAIXO      |
+| RF-007 | Análise de perfil            | Página para inserir informações de perfil para recomendações personalizadas.                            | ALTA       |
+| RF-008 | Plataforma de cursos         | Seção com cursos e materiais educacionais sobre investimentos.                                          | MÉDIA      |
+| RF-009 | Gestão de Gastos             | Ferramenta para acompanhar os gastos do investidor                                                      | BAIXA      |
+| RF-010 | Gestão de investimentos      | Seção para acompanhar os investimentos do usuário.                                                      | ALTA       |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| atualização automática de dados  | MÉDIA | 
-|RNF-002| Uma plataforma com tempos de processamento abaixo dos 5s |  BAIXA | 
-|RNF-003| Respeitar as cores de base do projeto |  BAIXA | 
-|RNF-002| Uma plataforma com tempos de processamento abaixo dos 5s |  BAIXA | 
+| ID      | Descrição do Requisito                                   | Prioridade |
+|---------|----------------------------------------------------------|------------|
+| RNF-001 | Atualização automática de dados                          | MÉDIA      | 
+| RNF-002 | Uma plataforma com tempos de processamento abaixo dos 5s | BAIXA      | 
+| RNF-003 | Respeitar as cores de base do projeto                    | BAIXA      | 
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não trazer custos extras                              |
+| ID | Restrição                                             |
+|----|-------------------------------------------------------|
+| 01 | O projeto deverá ser entregue até o final do semestre |
+| 02 | Não pode ser desenvolvido um módulo de backend        |
+| 03 | Não trazer custos extras                              |
 
 # Projeto de Interface
 
@@ -211,7 +210,7 @@ Nesta seção, exploraremos duas etapas cruciais do Projeto de Interface: o User
 Ao compreendermos essas duas áreas-chave do Projeto de Interface, estaremos capacitados a criar interfaces que não apenas atendam às necessidades dos usuários, mas também proporcionem uma experiência fluida e agradável ao interagir com a aplicação. Vamos mergulhar mais fundo no User Flow e nos Wireframes para entender como eles se complementam e contribuem para o sucesso do projeto.
 
 ## User Flow
->![UserFlow](images/UserFlow.jpg)
+![UserFlow](images/user-flow.jpg)
 
 
 ## Wireframes
@@ -220,29 +219,29 @@ Cada wireframe foi meticulosamente elaborado para representar visualmente a disp
 
 Este wireframe serve como um guia essencial durante o processo de desenvolvimento, ajudando a equipe de design e desenvolvimento a visualizar e refinar a experiência do usuário antes da implementação final. Além disso, ele é uma ferramenta valiosa para solicitar feedback e realizar iterações para garantir que a InvestPro atenda às necessidades e expectativas de nossos usuários.
 
-**Wireframe da InvestPro: Overview**
+### Overview
 
-> ![Wireframe Overview](images/wireframe-overview.png)
+![Wireframe Overview](images/wireframes/overview.png)
 
-**Wireframe da InvestPro: Criar Conta**
+### Criar Conta
 
-> ![Wireframe Criar Conta](images/wireframe-criar-conta.png)
+![Wireframe Criar Conta](images/wireframes/criar-conta.png)
 
-**Wireframe da InvestPro: Entrar**
+### Entrar
 
-> ![Wireframe Entrar](images/wireframe-entrar.png)
+![Wireframe Entrar](images/wireframes/entrar.png)
 
-**Wireframe da InvestPro: Institucional**
+### Institucional
 
-> ![Wireframe Institucional](images/wireframe-institucional.png)
+![Wireframe Institucional](images/wireframes/institucional.png)
 
-**Wireframe da InvestPro: Homepage**
+### Homepage
 
-> ![Wireframe Homepage](images/wireframe-homepage.png)
+![Wireframe Homepage](images/wireframes/homepage.png)
 
-**Wireframe da InvestPro: Profile**
+### Profile
 
-> ![Wireframe Profile](images/wireframe-perfil.png)
+![Wireframe Profile](images/wireframes/perfil.png)
 
 
 # Metodologia
@@ -279,29 +278,24 @@ Em resumo, adotamos uma abordagem ágil, centrada no usuário e baseada no Frame
 
 Nossa equipe é composta por membros dedicados, cada um desempenhando um papel fundamental no desenvolvimento do projeto. Confira abaixo a divisão de papéis e tarefas entre os membros do grupo:
 
-- **Product Owner (PO):** Mateus Rodrigues
-  - GitHub: [Mateus Rodrigues GitHub](https://github.com/MateusRodrigu)
+- **Product Owner (PO):** [Mateus Rodrigues](https://github.com/MateusRodrigu)
 
-- **Scrum Master:** João Eduardo
-  - GitHub: [João Eduardo GitHub](https://github.com/Crow3442)
+- **Scrum Master:** [João Eduardo](https://github.com/Crow3442)
 
 - **Desenvolvedores:**
-  1. Gabriel Marcondes
-     - GitHub: [Gabriel Marcondes GitHub](https://github.com/gabrielstarling1)
-  2. João Pedro
-     - GitHub: [João Pedro GitHub](https://github.com/seuusuario)
-  3. Lucas
-     - GitHub: [Lucas GitHub](https://github.com/Lucas-Ferreira11)
+  - [Gabriel Marcondes](https://github.com/gabrielstarling1)
+  - [João Pedro](https://github.com/jaoppb)
+  - [Lucas](https://github.com/Lucas-Ferreira11)
 
 
 ## Ferramentas
 
-| Ambiente                    | Plataforma | Link de Acesso                 |
-|-----------------------------|------------|--------------------------------|
-| Processo de Design Thinking | Miro       | [Link do Miro](https://miro.com/) |
-| Repositório de código       | GitHub     | [Link do GitHub](https://github.com/) |
-| Hospedagem do site          | Netlify    | [Link do Netlify](https://www.netlify.com/) |
-| Protótipo Interativo        | Figma      | [Link do Figma](https://www.figma.com/) |
+| Ambiente                    | Plataforma   | Link de Acesso                   |
+|-----------------------------|--------------|----------------------------------|
+| Processo de Design Thinking | Miro         | [Link](https://miro.com/)        |
+| Repositório de código       | GitHub       | [Link](https://github.com/)      |
+| Hospedagem do site          | GitHub Pages | [Link](https://pages.github.com) |
+| Protótipo Interativo        | Figma        | [Link](https://www.figma.com/)   |
 
 
 - **Editor de código:** Utilizamos o Visual Studio Code como nosso editor de código principal. Escolhemos o VS Code devido à sua interface amigável, extensibilidade através de plugins e recursos avançados, como depuração integrada, controle de versão e suporte a várias linguagens de programação.
@@ -310,45 +304,21 @@ Nossa equipe é composta por membros dedicados, cada um desempenhando um papel f
 
 - **Ferramentas de diagramação:** Para criar diagramas e protótipos, escolhemos o Figma. O Figma é uma ferramenta de design colaborativo baseada na web, que permite a criação de wireframes, layouts de interface do usuário e protótipos interativos. Optamos pelo Figma devido à sua facilidade de uso, recursos avançados de colaboração em tempo real e capacidade de criar designs responsivos.
 
-- **Plataforma de hospedagem:** Escolhemos o Netlify como nossa plataforma de hospedagem para o projeto. O Netlify oferece hospedagem gratuita para projetos estáticos, integração contínua (CI) e entrega contínua (CD), HTTPS automático, escalabilidade automática e outras funcionalidades avançadas. Optamos pelo Netlify devido à sua simplicidade de configuração, performance e segurança garantida pela infraestrutura de hospedagem da plataforma.
+- **Plataforma de hospedagem:** Escolhemos o GitHub Pages como nossa plataforma de hospedagem para o projeto. O GitHub Pages oferece hospedagem gratuita para projetos estáticos, integração contínua (CI) e entrega contínua (CD), HTTPS automático, escalabilidade automática e outras funcionalidades avançadas. Optamos pelo GitHub Pages devido à sua simplicidade de configuração, performance e segurança garantida pela infraestrutura de hospedagem da plataforma.
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto está sendo feitor em branches separadas para cada funcionalidade/desenvolvedor,
+ficando a cargo do mesmo escolher.
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+Está sendo utilizado a seguinte nomenclatura para as branches utilizadas:
+ - `master`: versão principal e integrada
+ - `nome-do-dev-funcionalidade`: cada requisito funcional/feature implementado(a)
+ - `template`: parte visual base do projeto
+
+No momento as issues não estão sendo utilizadas.
 
 # **############## SPRINT 1 ACABA AQUI #############**
-
 
 # Projeto da Solução
 
